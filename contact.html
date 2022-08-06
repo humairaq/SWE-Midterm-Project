@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Journal Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+
+<div class="content-wrapper">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="MidTermProj.html">SiestaCon</a></li>
+            <li><a href="#">Press</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<div class="hero">
+    <h1>Contact Us</h1>
+    <h1>National Association to Promote Dreams</h1>
+    <p>Promoting dreams for increased health & happiness.</p>
+</div>
+
+<main role="main">
+    <div class="content-wrapper">
+
+    </div>
+</main>
+
+<div class="outer-wrapper">
+    <header class="clearfix">
+        <h1 id="diary">Dream Entries</h1>
+
+
+    </header>
+
+    <div class="main clearfix">
+        <h1>My first contact form</h1>
+        <form onsubmit="return false">
+        </form>
+        <input type="text" placeholder="First Name" id="firstName"/>
+        <input type="text" placeholder="Last Name" id="lastName" />
+        <br><br>
+        <input type="email" placeholder="Email Address" id="email" />
+        <br><br>
+        <input type="text" placeholder="Address" id="address" />
+        <input type="text" placeholder="City" id="city" />
+        <br><br>
+
+        <option disabled selected value> -- select a state -- </option>
+        <select id="state">
+            <option disabled selected value> -- select a state -- </option>
+            <option value="al">Alabama</option>
+            <option value="ak">Alaska</option>
+            <option value="az">Arizona</option>
+            <option value="ar">Arkansas</option>
+            <option value="ca">California</option>
+            <option value="co">Colorado</option>
+            <option value="ct">Connecticut</option>
+            <option value="de">Delaware</option>
+            <option value="dc">District of Columbia</option>
+            <option value="fl">Florida</option>
+            <option value="ga">Georgia</option>
+            <option value="hi">Hawaii</option>
+            <option value="id">Idaho</option>
+            <option value="il">Illinois</option>
+            <option value="in">Indiana</option>
+            <option value="ia">Iowa</option>
+            <option value="ks">Kansas</option>
+            <option value="ky">Kentucky</option>
+            <option value="la">Louisiana</option>
+            <option value="me">Maine</option>
+            <option value="md">Maryland</option>
+            <option value="ma">Massachusetts</option>
+            <option value="mi">Michigan</option>
+            <option value="mn">Minnesota</option>
+            <option value="ms">Mississippi</option>
+            <option value="mo">Missouri</option>
+            <option value="mt">Montana</option>
+            <option value="ne">Nebraska</option>
+            <option value="nv">Nevada</option>
+            <option value="nj">New Jersey</option>
+            <option value="nh">New Hampshire</option>
+            <option value="nm">New Mexico</option>
+            <option value="ny">New York</option>
+            <option value="nc">North Carolina</option>
+            <option value="nd">North Dakota</option>
+            <option value="oh">Ohio</option>
+            <option value="ok">Oklahoma</option>
+            <option value="or">Oregon</option>
+            <option value="pa">Pennsylvania</option>
+            <option value="ri">Rhode Island</option>
+            <option value="sc">South Carolina</option>
+            <option value="sd">South Dakota</option>
+            <option value="tn">Tennessee</option>
+            <option value="tx">Texas</option>
+            <option value="ut">Utah</option>
+            <option value="vt">Vermont</option>
+            <option value="va">Virginia</option>
+            <option value="wa">Washington</option>
+            <option value="dc">Washington, D.C.</option>
+            <option value="wv">West Virginia</option>
+            <option value="wi">Wisconsin</option>
+            <option value="wy">Wyoming</option>
+        </select>
+        <br><br>
+        <option disabled selected value> -- select a country -- </option>
+        <select id="country">
+            <option disabled selected value> -- select a country -- </option>
+            <option value="United States">United States</option>
+        </select>
+        <br><br>
+        <input type="checkbox" id="newsletter" />Send me monthly newsletter
+        <br><br>
+        <span>What is your question?</span>
+        <br>
+        <textarea id="question" rows="4"></textarea>
+        <br><br>
+        <button onclick="sendContact();">Send contact</button>
+
+    </div>
+</div>
+
+<div class="outer-wrapper">
+
+    <div class="content-wrapper">
+
+        <main role="main">
+            <div class="first step">
+            </div>
+        </main>
+
+
+    </div>
+</div>
+</div>
+<footer>
+    <p>Copyright © Humaira Qadeer</p>
+</footer>
+
+<script src="js/Diary.js"></script>
+<script src="js/Entry.js"></script>
+<script src="js/script.js"></script>
+<script src="js/contact-js.js"></script>
+
+
+</body>
